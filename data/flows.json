@@ -1,0 +1,2 @@
+{"flows":[{"from":"sales","to":"commercial","packet":"Customer Order"},{"from":"commercial","to":"planning","packet":"Purchase Request"},{"from":"planning","to":"production","packet":"Production Plan"},{"from":"production","to":"quality","packet":"QC Report"},{"from":"quality","to":"warehouse","packet":"Inventory Update"},{"from":"warehouse","to":"transport","packet":"Shipment Notice"},{"from":"transport","to":"finance","packet":"Invoice"},{"from":"finance","to":"cost","packet":"Cost Calculation"},{"from":"cost","to":"management","packet":"Management Report"}]}
+
