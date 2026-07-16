@@ -1,0 +1,2 @@
+.kpis{display:grid;grid-template-columns:repeat(8,1fr);gap:10px;margin-bottom:16px}.kpi{padding:12px 13px;border-radius:12px;background:#0d1e31cc;border:1px solid #203b58}.kpi small{font-size:10px;color:var(--muted);display:block}.kpi strong{font-size:19px;display:block;margin-top:4px}.kpi em{font-size:9px;color:#5fe6a1;font-style:normal}@media(max-width:1100px){.kpis{grid-template-columns:repeat(4,1fr)}}@media(max-width:600px){.kpis{grid-template-columns:repeat(2,1fr)}}
+
