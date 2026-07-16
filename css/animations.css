@@ -1,0 +1,2 @@
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes pulse{50%{filter:drop-shadow(0 0 15px #49e0ff)}}@keyframes packet{to{stroke-dashoffset:-100}}.core{animation:pulse 2s ease-in-out infinite}.flow-line{stroke-dasharray:8 12;animation:packet 1.8s linear infinite}.packet{filter:drop-shadow(0 0 5px currentColor)}
+
