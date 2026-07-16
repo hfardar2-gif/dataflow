@@ -1,0 +1,2 @@
+export const scenarios=['customer-order','sales-approval','raw-material','production-planning','material-reservation','production-execution','quality-inspection','warehouse-receipt','shipment','invoice','financial-posting','cost-calculation','production-delay','machine-breakdown','inventory-shortage','quality-rejection','customer-return','emergency-order','management-reporting'];
+
