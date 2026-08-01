@@ -7,3 +7,5 @@ const flowChain=[['sales','commercial','سفارش مشتری','sales'],['commer
 
 
 const controls=$('#simulationControls'),controlsToggle=$('#controlsToggle'),closeControls=$('#closeControls');function setControls(open){controls.classList.toggle('open',open);controls.setAttribute('aria-hidden',String(!open));controlsToggle.setAttribute('aria-expanded',String(open));controlsToggle.classList.toggle('active',open)}controlsToggle.onclick=()=>setControls(!controls.classList.contains('open'));closeControls.onclick=()=>setControls(false);document.addEventListener('keydown',e=>{if(e.key==='Escape')setControls(false)});
+
+const diagramScroll=$('#diagramScroll');function centerMobileDiagram(){if(window.innerWidth<=900&&diagramScroll){diagramScroll.scrollLeft=(diagramScroll.scrollWidth-diagramScroll.clientWidth)/2}}requestAnimationFrame(centerMobileDiagram);window.addEventListener('resize',centerMobileDiagram);
